@@ -1,4 +1,4 @@
-## Mix Micro Hystrix
+## Mix  Hystrix
 
 微服务熔断器，参考 spring hystrix 设计，基于 Swoole 开发
 
@@ -7,7 +7,7 @@
 安装：
 
 ```
-composer require mix/micro-hystrix
+composer require mix-plus/hystrix
 ```
 
 文档：
