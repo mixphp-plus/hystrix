@@ -1,5 +1,5 @@
 {
-  "name": "mix/micro-hystrix",
+  "name": "mix-plus/hystrix",
   "description": "Microservice circuit breaker, reference spring hystrix, developed based on Swoole",
   "type": "library",
   "keywords": [
