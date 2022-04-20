@@ -1,10 +1,10 @@
 <?php
 
-namespace Mix\Micro\Hystrix\Event;
+namespace MixPlus\Hystrix\Event;
 
 /**
  * Class StatusChangeEvent
- * @package Mix\Micro\Hystrix\Event
+ * @package MixPlus\Hystrix\Event
  */
 class StatusChangeEvent
 {

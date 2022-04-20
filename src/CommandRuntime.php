@@ -1,10 +1,10 @@
 <?php
 
-namespace Mix\Micro\Hystrix;
+namespace MixPlus\Hystrix;
 
 /**
  * Class CommandRuntime
- * @package Mix\Micro\Hystrix
+ * @package MixPlus\Hystrix
  */
 class CommandRuntime
 {

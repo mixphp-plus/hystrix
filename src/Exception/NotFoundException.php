@@ -1,10 +1,10 @@
 <?php
 
-namespace Mix\Micro\Hystrix\Exception;
+namespace MixPlus\Hystrix\Exception;
 
 /**
  * Class NotFoundException
- * @package Mix\Micro\Hystrix\Exception
+ * @package MixPlus\Hystrix\Exception
  */
 class NotFoundException extends \RuntimeException
 {

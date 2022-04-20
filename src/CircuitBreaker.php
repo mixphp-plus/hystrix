@@ -1,15 +1,15 @@
 <?php
 
-namespace Mix\Micro\Hystrix;
+namespace MixPlus\Hystrix;
 
-use Mix\Micro\Hystrix\Event\StatusChangeEvent;
-use Mix\Micro\Hystrix\Exception\NotFoundException;
-use Mix\Micro\Hystrix\Exception\TimeoutException;
+use MixPlus\Hystrix\Event\StatusChangeEvent;
+use MixPlus\Hystrix\Exception\NotFoundException;
+use MixPlus\Hystrix\Exception\TimeoutException;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
 /**
  * Class CircuitBreaker
- * @package Mix\Micro\Hystrix
+ * @package MixPlus\Hystrix
  */
 class CircuitBreaker
 {
@@ -120,6 +120,7 @@ class CircuitBreaker
             $runtime->sampling["error"][] = $id;
         } catch (\Throwable $ex) {
             $runtime->sampling["error"][] = $id;
+            var_dump($runtime->sampling['error']);
             throw $ex;
         } finally {
             unset($runtime->currentRequests[$id]);
