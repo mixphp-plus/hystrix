@@ -120,7 +120,6 @@ class CircuitBreaker
             $runtime->sampling["error"][] = $id;
         } catch (\Throwable $ex) {
             $runtime->sampling["error"][] = $id;
-            var_dump($runtime->sampling['error']);
             throw $ex;
         } finally {
             unset($runtime->currentRequests[$id]);
